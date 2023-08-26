@@ -192,8 +192,8 @@ body {
     background-color: #DF6951;
     border-radius: 39.904px 0px 13.301px 0px;
     position: absolute;
-    bottom: -130%;
-    left: 25%;
+    bottom: -933px;
+    left: 358px;
     z-index: -1;
 }
 
@@ -203,8 +203,8 @@ body {
     border-radius: 39.904px 0px 13.301px 0px;
     background: #4B40C5;
     position: absolute;
-    bottom: -82%;
-    right: 26%;
+    bottom: -589px;
+    right: 379px;
     z-index: -1;
     transform: rotate(90deg);
 }
@@ -673,7 +673,7 @@ body {
     font-size: 18.622px;
     font-weight: 400;
     padding-left: 70px;
-    background-color: #F5F6FA;
+    background-color: #ffffff;
     background-image: url(./assets/email.svg);
     background-repeat: no-repeat;
     background-position: 35px center;
