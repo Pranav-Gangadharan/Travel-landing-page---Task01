@@ -113,7 +113,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 77px;
+    padding: 75px;
 }
 
 .category-header {
@@ -182,32 +182,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* Adjust alignment as needed */
     flex-wrap: nowrap;
-    /* Allow cards to wrap to the next line */
     gap: 30px;
-    /* Adjust the gap between cards */
 }
 
 .category-cards {
     width: calc(33.33% - 30px);
-    /* Adjust card width and consider the gap between cards */
     max-width: 313.15px;
-    /* Set a max-width to prevent cards from getting too wide */
     height: 393.544px;
     text-align: center;
     color: #000;
     margin-bottom: 30px;
-    /* Remove margin-bottom to avoid extra spacing */
     box-sizing: border-box;
-    /* Ensure padding and border are included in width */
     padding: 20px;
-    /* Add some padding to the cards */
 }
 
 .image {
     margin-bottom: 20px;
-    /* Reduce margin to control spacing */
 }
 
 .category-name {
@@ -215,15 +206,12 @@ body {
     font-weight: 500;
     line-height: normal;
     margin-bottom: 10px;
-    /* Reduce margin for a more compact layout */
 }
 
 .category-description {
     font-size: 18px;
-    /* Adjust font size for better readability */
     font-weight: 400;
     line-height: 1.5;
-    /* Adjust line height for better readability */
     word-wrap: break-word;
 }
 
@@ -271,39 +259,20 @@ body {
     margin-bottom: 80px;
 }
 
-/* .selling-title {
-    color: var(--violet-color);
-    text-align: center;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    padding-bottom: 20px;
-}
-
-.selling-subtitle {
-    color: #14183E;
-    text-align: center;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: capitalize;
-} */
 
 .selling-cards-container {
     display: flex;
-    align-items: baseline;
-    gap: 80px;
+    align-items: center;
+    justify-content: center;
 }
 
-
 .selling-cards {
-    width: 417.658px;
-    height: 747.866px;
+    width: 479.658px;
+    height: 766.866px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 29px;;
 }
 
 .selling-image {
@@ -318,10 +287,11 @@ body {
     background: #FAFAFA;
     transform: translateY(-35px);
     box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.3);
+    padding: 30px 0px;
 }
 
 .selling-details1 {
-    padding: 30px 25px;
+    padding: 0px 25px 36px 25px;
     display: flex;
     justify-content: space-between;
 }
@@ -329,16 +299,13 @@ body {
 .selling-name {
     color: #5E6282;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: 124.5%;
-
 }
 
 .selling-price {
     color: #5E6282;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: 124.5%;
 }
@@ -352,7 +319,6 @@ body {
 .trip-days {
     color: #5E6282;
     font-size: 17px;
-    font-style: normal;
     font-weight: 500;
     line-height: 124.5%;
     margin-left: 10px;
