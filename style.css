@@ -12,13 +12,13 @@
 }
 
 body {
+    max-width: 1920px;
     font-family: 'Poppins', sans-serif;
 }
 
 .wrapper {
     background: url(./assets/unsplash_ELf8M_YWRTY.png);
     background-size: cover;
-    width: 100%;
     height: auto;
 }
 
@@ -141,27 +141,34 @@ body {
 
 }
 
-/* .category-services {
+
+.category-services {
+    max-width: 1440px;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .category-cards {
-    width: 313.15px;
+    max-width: 313.15px;
     height: 393.544px;
     text-align: center;
     color: #000;
-    margin: 0px 30px;
-    margin-bottom: 150px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 .align-card {
-    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .image {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .category-name {
@@ -172,47 +179,10 @@ body {
 }
 
 .category-description {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 34.583px;
-    word-wrap: break-word;
-} */
-
-.category-services {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    gap: 30px;
-}
-
-.category-cards {
-    width: calc(33.33% - 30px);
-    max-width: 313.15px;
-    height: 393.544px;
-    text-align: center;
-    color: #000;
-    margin-bottom: 30px;
-    box-sizing: border-box;
-    padding: 20px;
-}
-
-.image {
-    margin-bottom: 20px;
-}
-
-.category-name {
-    font-size: 24px;
-    font-weight: 500;
-    line-height: normal;
-    margin-bottom: 10px;
-}
-
-.category-description {
+    width: 226px;
     font-size: 18px;
     font-weight: 400;
-    line-height: 1.5;
-    word-wrap: break-word;
+    line-height: 34px;
 }
 
 .art {
@@ -249,6 +219,7 @@ body {
 /* Top selling */
 
 .selling-section {
+    width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -272,7 +243,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 29px;;
+    padding: 29px;
+    ;
 }
 
 .selling-image {
@@ -533,6 +505,7 @@ body {
 /* About section */
 
 .about-container {
+    width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -540,7 +513,7 @@ body {
 }
 
 .about-section {
-    width: 858.49px;
+    width: 850.49px;
     text-align: center;
 }
 
@@ -662,7 +635,6 @@ body {
     font-size: 32px;
     font-weight: 600;
     line-height: 71.827px;
-
 }
 
 .image-circle {
