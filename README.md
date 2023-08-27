@@ -15,7 +15,7 @@ The project is a practical exercise to apply the concepts learned during the cla
 The landing page provides users with an enticing visual experience, encouraging them to explore the destinations and engage with the travel services offered. It also serves as a platform to practice coding and design techniques in a real-world context.
 
 ## Demo
-Check out the live demo of the travel website landing page [will be updated once complete](link).
+Check out the live demo of the travel website landing page [https://travel-website-zen.netlify.app/](https://travel-website-zen.netlify.app/).
 
 ## Features
 - Responsive design that looks great on various devices and screen sizes.
