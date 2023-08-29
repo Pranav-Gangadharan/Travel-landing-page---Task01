@@ -360,6 +360,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 167px;
+    position: relative;
 }
 
 .box {
@@ -369,6 +370,7 @@ body {
     justify-content: center;
     border-radius: 34.583px;
     background: #FFF;
+
     box-shadow: 0px 2.4631879329681396px 4.187419891357422px 0px rgba(0, 0, 0, 0.00), 0px 10.838027954101562px 8.67042064666748px 0px rgba(0, 0, 0, 0.01), 0px 26.60243034362793px 17.291582107543945px 0px rgba(0, 0, 0, 0.01), 0px 51.234317779541016px 33.893463134765625px 0px rgba(0, 0, 0, 0.01), 0px 86.2115707397461px 62.318668365478516px 0px rgba(0, 0, 0, 0.02), 0px 133.0121612548828px 106.40972137451172px 0px rgba(0, 0, 0, 0.02);
 }
 
@@ -438,6 +440,19 @@ body {
 .building-icon {
     padding-right: 15px;
     padding-top: 30px;
+}
+
+.background-circle-violet {
+    position: absolute;
+    border-radius: 439.807px;
+    opacity: 0.8;
+    background: #4B40C5;
+    filter: blur(99.75911712646484px);
+    width: 20.497em;
+    height: 21.264em;
+    flex-shrink: 0;
+    z-index: -1;
+    left: 9em;
 }
 
 .box2 {
@@ -782,7 +797,7 @@ body {
         height: auto;
     }
 
-    
+
 
 }
 
